@@ -7,6 +7,7 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import BusinessSignUp from "./views/BusinessSignUp.vue"
 
 Vue.use(Router);
 
@@ -46,6 +47,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Register,
+        footer: AppFooter
+      }
+    },
+        {
+      path: "/businesssignup",
+      name: "businesssignup",
+      components: {
+        header: AppHeader,
+        default: BusinessSignUp,
         footer: AppFooter
       }
     },
