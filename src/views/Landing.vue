@@ -178,10 +178,7 @@
             <div class="container pt-lg pb-300">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
-                        <h2 class="display-3 text-white">Build something</h2>
-                        <p class="lead text-white">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
-                            tihs year down to low ice.</p>
+                        <h2 class="display-3 text-white">Volunteer Support is provided by these great organisations & groups</h2>
                     </div>
                 </div>
                 <div class="row row-grid mt-5">
@@ -211,8 +208,8 @@
                 <div class="row justify-content-center mt--300">
                     <div class="col-lg-8">
                         <card gradient="secondary" shadow body-classes="p-lg-5">
-                            <h4 class="mb-1">Want to work with us?</h4>
-                            <p class="mt-0">Your project is very important to us.</p>
+                            <h4 class="mb-1">Want to volunteer with us?</h4>
+                            <p class="mt-0">Your contributions are very important to the community.</p>
                             <base-input class="mt-5"
                                         alternative
                                         placeholder="Your name"

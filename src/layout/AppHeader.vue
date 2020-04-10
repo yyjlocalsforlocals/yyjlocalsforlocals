@@ -20,7 +20,7 @@
                 <base-dropdown class="nav-item" menu-classes="dropdown-menu-xl">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <i class="ni ni-ui-04 d-lg-none"></i>
-                        <span class="nav-link-inner--text">Components</span>
+                        <span class="nav-link-inner--text">Community Resources</span>
                     </a>
                     <div class="dropdown-menu-inner">
                         <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
@@ -29,7 +29,7 @@
                                 <i class="ni ni-spaceship"></i>
                             </div>
                             <div class="media-body ml-3">
-                                <h6 class="heading text-primary mb-md-1">Getting started</h6>
+                                <h6 class="heading text-primary mb-md-1">Local Delivery</h6>
                                 <p class="description d-none d-md-inline-block mb-0">Get started with Bootstrap, the
                                     world's most popular framework for building responsive sites.</p>
                             </div>
@@ -40,7 +40,18 @@
                                 <i class="ni ni-ui-04"></i>
                             </div>
                             <div class="media-body ml-3">
-                                <h5 class="heading text-warning mb-md-1">Components</h5>
+                                <h5 class="heading text-warning mb-md-1">What's Open</h5>
+                                <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon
+                                    compiling Scss, change brand colors and more.</p>
+                            </div>
+                        </a>
+                        <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/"
+                           class="media d-flex align-items-center">
+                            <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                                <i class="ni ni-ui-04"></i>
+                            </div>
+                            <div class="media-body ml-3">
+                                <h5 class="heading text-warning mb-md-1">COVID-19 Information</h5>
                                 <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon
                                     compiling Scss, change brand colors and more.</p>
                             </div>
@@ -93,7 +104,7 @@
                 <span class="btn-inner--icon">
                   <i class="fa fa-cloud-download mr-2"></i>
                 </span>
-                        <span class="nav-link-inner--text">Download</span>
+                        <span class="nav-link-inner--text">I would like assistance</span>
                     </a>
                 </li>
             </ul>
