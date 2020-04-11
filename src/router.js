@@ -8,6 +8,8 @@ import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 import BusinessSignUp from "./views/BusinessSignUp.vue"
+import LocalDelivery from "./views/LocalDelivery"
+import CovidInformation from "./views/CovidInformation"
 
 Vue.use(Router);
 
@@ -65,6 +67,24 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Profile,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/localdelivery",
+      name: "localdelivery",
+      components: {
+        header: AppHeader,
+        default: LocalDelivery,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/covidinformation",
+      name: "covidinformation",
+      components: {
+        header: AppHeader,
+        default: CovidInformation,
         footer: AppFooter
       }
     }
