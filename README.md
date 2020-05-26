@@ -1,10 +1,27 @@
-# Authentication with Flask, React, and Docker
+# YYJLocalsforLocals
+### YYJLocalsForLocals is a group of community-minded tech and marketing professionals offering pro-bono assistance to local small businesses, restaurants, and bars.
 
-[![pipeline status](https://gitlab.com/sbathgate/flask-react-auth/badges/master/pipeline.svg)](https://gitlab.com/sbathgate/flask-tdd-docker/commits/master)
+Victoria is such a great place to live because of the amazing restaurants, bars, breweries, coffee shops, and unique local retailers. The overall goal of the project is to help make sure that when this is over and everyone is safe and healthy, all those great places will still exist.
+
+To get work out quickly, YYJLocalsForLocals offers eight main services, listed below. Any small business in the area can request one of these services through the website located at yyjlocalsforlocals.com.
+
+Some of our pro-bono services:
+
+* Help designing merch to drive sales
+* Building a single page website (landing page)
+* Write a message about how your business is handling COVID-19
+* Email design to send to your customers
+* Social media post or ad copy & design
+* Help setting up gift card sales on your website
+* Marketing help to promote your delivery service
+* Help setting up a subscription box service 
+
+## Contact
+For press inquiries, please contact yyjlocalsforlocals@gmail.com. 
 
 ## Quick start
-* Clone GitLab Repo: `$ git clone https://gitlab.com/sbathgate/flask-tdd-docker.git`
-* Switch to project root: `$ cd flask-tdd-docker/`
+* Clone GitHub Repo: `$ git clone https://github.com/yyjlocalsforlocals/yyjlocalsforlocals.git`
+* Switch to project root: `$ cd yyjlocalsforlocals/`
 * Build the images: `$ docker-compose build`
 * Run the containers: `$ docker-compose up -d`
 * Create the database: `$ docker-compose exec users python manage.py recreate_db`
@@ -187,25 +204,3 @@
 
 #### Remove images:
 ```$ docker rmi $(docker images -q)```
-
-## TODO:
-#### My notes:
-- [ ] Configure singular setup.cfg for flake8, black and isort.
-
-#### Test-Driven Development with Python, Flask and Docker
-- [ ] Test coverage: Add more tests to increase the overall test coverage.
-- [ ] DRY out the code: There's plenty of places in the code base that could be refactored.
-- [x] Flask-CORS: Use Flask-CORS to handle cross-origin requests -- e.g., requests that originate from a different protocol, IP address, domain name, or port.
-- [ ] Caching: Add caching (where appropriate) with Flask-Cache.
-- [ ] Database migrations: Manage changes to the database through SQLAlchemy database migrations with the Flask-Migrate extension.
-
-#### Authentication with Flask, React, and Docker
-##### Part 2: Auth Routes
-- [ ] Try to increase the test coverage. Add tests for the remaining edge cases.
-- [ ] Add unit tests as well in a new file called test_auth_unit.py. Use monkeypatch like we did in test_users_unit.py.
-- [ ] We're currently allowing duplicate usernames. Is this okay? Probably not. Practice TDD on your own and add a test for this and then implement the code.
-- [ ] We should probably invalidate refresh tokens. We could create a new database table for this and only store a single refresh token per user.
-
-## Valuable Notes
-If you get a compilation error due to Module not found: Can't resolve 'temp'; try installing temp in the running container:
-```$ docker-compose exec client npm install react-router-dom```
